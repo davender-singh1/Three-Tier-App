@@ -1,5 +1,11 @@
 # #ThreeTierAppChallenge
 
+Youtube video link: https://youtu.be/qdU0IidacfU
+
+![0123-Cover](https://github.com/davender-singh1/Three-Tier-App/assets/106000634/674d5546-6636-4532-9b4e-99056bb22be2)
+
+![orerr](https://github.com/davender-singh1/Three-Tier-App/assets/106000634/291cbd58-f1f5-44a7-91e3-4e9ce9be92f3)
+
 ## Overview
 The challenge involves deploying a Three-Tier Web Application using ReactJS, NodeJS, and MongoDB, with deployment on AWS EKS.
 
@@ -81,6 +87,9 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n ku
 kubectl get deployment -n kube-system aws-load-balancer-controller
 kubectl apply -f full_stack_lb.yaml
 ```
+
+![all pods](https://github.com/davender-singh1/Three-Tier-App/assets/106000634/e5dc6a5b-301f-4326-8b05-ff6195240e54)
+
 
 ### Cleanup
 - To delete the EKS cluster:
